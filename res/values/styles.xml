@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="a" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/a</item>
+        <item name="android:colorPrimaryDark">@color/b</item>
+        <item name="android:colorAccent">@color/c</item>
+  
+    
+    </style>
+    <style name="b" parent="@style/a"/>
+
+</resources>

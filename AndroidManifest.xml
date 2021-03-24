@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:a="http://schemas.android.com/apk/res/android" a:versionCode="04192020" a:versionName="2.0" package="com.android.DROID_MJ.tictactoe">
+   <uses-permission a:name="android.permission.VIBRATE"/>
+    <uses-sdk
+        a:minSdkVersion="16"
+        a:targetSdkVersion="30" />
+
+    <application
+        a:allowBackup="true"
+        a:icon="@mipmap/a"
+        a:label="@string/a" a:appCategory="games"
+        a:supportsRtl="true"
+        a:theme="@style/a">
+        <activity a:launchMode="singleTask" a:name=".b">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN" />
+
+                <category a:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity a:launchMode="singleTask" a:name=".a" />
+    </application>
+
+</manifest>
